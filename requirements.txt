@@ -1,0 +1,8 @@
+fastapi>=0.95.0  # 兼容低版本，避免JSONResponse indent问题
+uvicorn[standard]>=0.21.1  # FastAPI启动依赖
+requests>=2.28.0  # 网络请求（360搜索爬虫）
+beautifulsoup4>=4.12.0  # HTML解析
+lxml>=4.9.2  # bs4的解析器
+python-dotenv>=1.0.0  # 加载.env配置
+openai>=1.0.0  # 调用DeepSeek API
+gunicorn>=20.1.0  # Web服务部署
